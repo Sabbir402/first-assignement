@@ -35,14 +35,12 @@ body {
 	margin: auto;
 	width: 60%;
 }
-
 .all-header {
 	font-size: 30px;
 	font-weight: 600;
 	margin-top: 70px;
 	margin-bottom: 0;
 }
-
 .donate-part hr {
 	margin-bottom: 30px;
 }
@@ -61,7 +59,7 @@ body {
 	padding: 20px;
 }
 
-#more-btn {
+#diffarent-btn {
 	text-decoration: none;
 	color: #FF5959;
 	background-color: #FFEEEE;
@@ -87,8 +85,23 @@ body {
 	border-radius: 5px;
 	margin: 15px;
 	padding: 10px;
+	height: 300px;
+	width: 30%;
 }
-
+.founder{
+	display: flex;
+	margin: auto;
+	width: 80%;
+ 	align-items: center;
+}
+.founder-details{
+	margin-right: 50px;
+	padding: 80px;
+}
+#founder-name{
+	font-size: 40px;
+	color: rgb(234, 148, 37);
+}
 .email-part {
 	background-color: #FFF4D6;
 	height: 200px;
@@ -97,12 +110,12 @@ body {
 	align-items: center;
 }
 
-.email-fild {
+.email-fild{
 	background: #D9D9D9;
 	border: 0;
-	border-radius: 5px 0px 0px 5px;
+	padding: 20px;
+	border-radius: 5px;
 }
-
 .end-part {
 	display: flex;
 	justify-content: center;
@@ -111,7 +124,7 @@ body {
 	height: 120px;
 	background-color: #0B0D17;
 	color: white;
-	margin-top: 200px;
+	margin-top: 100px;
 }
 
 .end-part h2 {
