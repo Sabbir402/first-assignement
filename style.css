@@ -18,10 +18,45 @@ body{
 	top: 140px;
 	right: 160px;
 }
-#banner-text a{
+.donate-button{
  	text-decoration: none;
 	color: white;
 	border-radius: 5px;
 	background-color: #FF5959;
 	padding: 16px 12px;
+}
+.donate-part{
+	text-align: center;
+	margin: auto;
+	width: 80%;
+}
+.donate-part h1{
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+.donate-part hr{
+	margin-bottom: 30px;
+}
+.donate-amount{
+	display: flex;
+	justify-content: center;
+}
+.donate-btn{
+	text-decoration: none;
+	color: #707070;
+	font-size: 25px;
+	background-color: #FAFAFA;
+	margin: 10px;
+	padding: 20px;
+}
+#more-btn{
+	text-decoration: none;
+	color: #FF5959;
+	background-color: #FFEEEE;
+	border: 2px solid #FF5959;
+	border-radius: 5px;
+	font-size: 25px;
+    margin: 10px;
+    padding: 20px;
 }
