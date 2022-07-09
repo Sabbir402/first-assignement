@@ -1,48 +1,58 @@
-body{
+body {
 	font-family: 'Poppins', sans-serif;
 	margin: 0;
 	padding: 0;
 }
-#banner{
+
+#banner {
 	background-image: url(image/donation3\ \(2\).jpg);
 	height: 400px;
 	position: relative;
 }
-#banner-header{
+
+#banner-header {
 	font-size: 40px;
 }
-#banner-text{
+
+#banner-text {
 	text-align: center;
 	color: white;
 	position: absolute;
 	top: 140px;
 	right: 160px;
 }
-.donate-button{
- 	text-decoration: none;
+
+.donate-button {
+	text-decoration: none;
 	color: white;
 	border-radius: 5px;
 	background-color: #FF5959;
 	padding: 16px 12px;
 }
-.donate-part{
+
+.donate-part {
 	text-align: center;
 	margin: auto;
 	width: 80%;
 }
-.donate-part h1{
+
+.all-header {
 	font-size: 30px;
 	font-weight: 600;
+	margin-top: 70px;
 	margin-bottom: 0;
 }
-.donate-part hr{
+
+.donate-part hr {
 	margin-bottom: 30px;
 }
-.donate-amount{
+
+.donate-amount {
 	display: flex;
 	justify-content: center;
 }
-.donate-btn{
+
+.donate-btn {
 	text-decoration: none;
 	color: #707070;
 	font-size: 25px;
@@ -50,13 +60,44 @@ body{
 	margin: 10px;
 	padding: 20px;
 }
-#more-btn{
+
+#more-btn {
 	text-decoration: none;
 	color: #FF5959;
 	background-color: #FFEEEE;
 	border: 2px solid #FF5959;
 	border-radius: 5px;
 	font-size: 25px;
-    margin: 10px;
-    padding: 20px;
+	margin: 10px;
+	padding: 20px;
+}
+
+.our-plan {
+	text-align: center;
+	margin-top: 50px;
+	margin: auto;
+	width: 90%;
+}
+
+.all-plan {
+	display: flex;
+}
+
+.plan {
+	border-radius: 5px;
+	margin: 15px;
+	padding: 10px;
+}
+.end-part {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 120px;
+	background-color: #0B0D17;
+	color: white;
+	margin-top: 200px;
+}
+.end-part h2{
+	color: #FF5959;
 }
